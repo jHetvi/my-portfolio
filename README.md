@@ -24,7 +24,7 @@ A modern, responsive portfolio website built with React, Vite, and Tailwind CSS.
 
 ## Deployment
 
-This project is deployed to GitHub Pages: [View Live Site](https://jhetvi.github.io/my-portfolio)
+This project is deployed to GitHub Pages: [View Live Site](https://jhetvi.github.io/my-portfolio/)
 
 
 ## packages:
