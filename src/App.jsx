@@ -14,7 +14,7 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useLocalization } from "./contexts/LocalizationContext";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { FOOTER_CONSTANTS } from "./constants/textConstants";
 
 const HomePage = ({ t }) => (

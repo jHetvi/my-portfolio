@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jHetvi.github.io/my-portfolio",
+  "homepage": "https://jhetvi.github.io/my-portfolio",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
