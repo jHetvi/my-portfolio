@@ -1,5 +1,5 @@
-// import images
 import Hero_person from "./assets/images/Hero/person.png";
+
 import react from "./assets/images/Skills/react.png";
 import flutter from "./assets/images/Skills/flutter.png";
 import android from "./assets/images/Skills/android.png";
@@ -9,9 +9,10 @@ import mobile from "./assets/images/Skills/mobile.png";
 import cloud from "./assets/images/Skills/cloud.png";
 import devops from "./assets/images/Skills/devops.png";
 import ui from "./assets/images/Skills/ui.png";
-import Hireme_person from "./assets/images/Hireme/person.png";
+
 import education1 from "./assets/images/Education/education1.png";
 import education2 from "./assets/images/Education/education2.png";
+
 import certificate1 from "./assets/images/Certificates/certificate1.png";
 import certificate2 from "./assets/images/Certificates/certificate2.png";
 import certificate3 from "./assets/images/Certificates/certificate3.png";
@@ -48,11 +49,6 @@ import { FaCode } from "react-icons/fa";
 // Add imports for new component images
 import education1 from "./assets/images/Education/education1.png";
 import education2 from "./assets/images/Education/education2.png";
-
-import certificate1 from "./assets/images/Certificates/certificate1.png";
-import certificate2 from "./assets/images/Certificates/certificate2.png";
-import certificate3 from "./assets/images/Certificates/certificate3.png";
-import certificate4 from "./assets/images/Certificates/certificate4.png";
 
 // Define the content object
 export const content = {
