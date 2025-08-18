@@ -32,16 +32,6 @@ import project11 from "./assets/images/Projects/performance.png";
 import project12 from "./assets/images/Projects/heeyThere.png";
 import project13 from "./assets/images/Projects/soact.png";
 import project14 from "./assets/images/Projects/dph.png";
-import project5 from "./assets/images/projects/rsta.png";
-import project6 from "./assets/images/projects/trivia360.png";
-import project7 from "./assets/images/projects/worthpoint.png";
-import project8 from "./assets/images/projects/worthpointMaps.png";
-import project9 from "./assets/images/projects/zinniax.png";
-import project10 from "./assets/images/projects/vici.png";
-import project11 from "./assets/images/projects/performance.png";
-import project12 from "./assets/images/projects/heeyThere.png";
-import project13 from "./assets/images/projects/soact.png";
-import project14 from "./assets/images/projects/dph.png";
 
 import Hireme_person from "./assets/images/Hireme/person.png";
 
