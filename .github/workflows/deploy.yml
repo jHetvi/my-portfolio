@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Fetch all history for git operations
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -24,9 +26,18 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Clean up any existing worktrees
+        run: |
+          git worktree list | grep -q "github-pages-deploy-action-temp-deployment-folder" && \
+          git worktree remove github-pages-deploy-action-temp-deployment-folder --force || true
+        continue-on-error: true
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: dist
           clean: true
+          clean-exclude: |
+            .nojekyll
+            CNAME
