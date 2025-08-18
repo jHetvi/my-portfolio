@@ -3,28 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Not Found</title>
+    <title>React Portfolio - Page Not Found</title>
     <script>
-        // Single Page Apps for GitHub Pages
-        // MIT License
-        // https://github.com/rafgraph/spa-github-pages
-        // This script takes the current URL and converts the path and query
-        // string into just a query string, and then redirects the browser
-        // to the new URL with only a query string and hash fragment.
-        var pathSegmentsToKeep = 1;
-
-        var l = window.location;
-        l.replace(
-            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-            l.hash
-        );
+        window.location.href = 'https://jhetvi.github.io/my-portfolio/';
     </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Page Not Found</h1>
-    <p>Redirecting you to the homepage...</p>
+    <h1>React Portfolio</h1>
+    <p>This is a GitHub Pages deployment of my React portfolio.</p>
+    <p>You should be redirected to the application automatically.</p>
+    <p>If not, please <a href="https://jhetvi.github.io/my-portfolio/">click here</a>.</p>
 </body>
 </html>
