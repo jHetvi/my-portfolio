@@ -1,21 +1,50 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { content } from "../Content";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { createElement } from "react";
 import { useLocalization } from "../contexts/LocalizationContext";
 import { SECTION_IDS } from "../constants/textConstants";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const { nav } = content;
   const [showMenu, setShowMenu] = useState(false);
   const [active, setActive] = useState(0);
   const { t, currentLanguage, changeLanguage, availableLanguages } = useLocalization();
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  // Handle navigation on location change
+  useEffect(() => {
+    // If there's a hash in the URL, scroll to that section
+    if (location.hash) {
+      const sectionId = location.hash.substring(1); // Remove the # character
+      const element = document.getElementById(sectionId);
+
+      if (element) {
+        // Use setTimeout to ensure the DOM is fully loaded
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+
+          // Find the index of the active nav item
+          const navIndex = nav.findIndex(item => item.link === location.hash);
+          if (navIndex !== -1) {
+            setActive(navIndex);
+          }
+        }, 100);
+      }
+    }
+  }, [location.hash, nav]);
 
   // Function to scroll to a section smoothly
   const scrollToSection = (sectionId, index) => {
     setActive(index);
     setShowMenu(false);
-    
+
+    // Update the URL hash without page reload
+    navigate(`/#${sectionId}`, { replace: true });
+
+    // Scroll to the section
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
