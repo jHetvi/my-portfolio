@@ -7,7 +7,11 @@ export default defineConfig({
   base: '/my-portfolio/',
   build: {
     outDir: 'dist',
-    assetsDir: 'assets',
-    emptyOutDir: true
+    emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
+      }
+    }
   }
 })
