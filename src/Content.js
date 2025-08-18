@@ -45,12 +45,6 @@ import { BiBookOpen } from "react-icons/bi";
 import { RiProjectorLine, RiAwardLine } from "react-icons/ri";
 import { FaCode } from "react-icons/fa";
 
-
-// Add imports for new component images
-import education1 from "./assets/images/Education/education1.png";
-import education2 from "./assets/images/Education/education2.png";
-
-// Define the content object
 export const content = {
   nav: [
     {
