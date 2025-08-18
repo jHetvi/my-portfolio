@@ -11,6 +11,17 @@ const Navbar = () => {
   const [active, setActive] = useState(0);
   const { t, currentLanguage, changeLanguage, availableLanguages } = useLocalization();
 
+  // Function to scroll to a section smoothly
+  const scrollToSection = (sectionId, index) => {
+    setActive(index);
+    setShowMenu(false);
+    
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="w-full flex justify-center">
       <div
@@ -31,15 +42,14 @@ const Navbar = () => {
 
           return (
             <div key={i} className="relative group">
-              <a
-                href={`#${SECTION_IDS[sectionKey]}`}
-                onClick={() => setActive(i)}
+              <button
+                onClick={() => scrollToSection(SECTION_IDS[sectionKey], i)}
                 className={`text-xl p-2.5 rounded-full sm:cursor-pointer flex items-center justify-center
                 ${i === active && "bg-dark_primary text-white"} `}
                 title={t(`nav.${sectionId}`)}
               >
                 {createElement(item.icon)}
-              </a>
+              </button>
               <div className="absolute -bottom-10 left-1/2 transform -translate-x-1/2 bg-dark_primary text-white px-2 py-1 rounded text-xs whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 {t(`nav.${sectionId}`)}
               </div>
