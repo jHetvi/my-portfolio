@@ -65,6 +65,7 @@ export const EXPERIENCE_CONSTANTS = {
     POSITIONS: "experience.positions",
     DURATIONS: "experience.durations",
     LOCATIONS: "experience.locations",
+    CLOSE: "skills.close",
 };
 
 // Projects Section Constants
@@ -75,6 +76,12 @@ export const PROJECTS_CONSTANTS = {
     SEE_ALL: "projects.seeAll",
     EXPLORE_MORE: "projects.exploreMore",
     PROJECT_TITLES: "projects.projectTitles",
+    DESCRIPTION: "projects.description",
+    KEY_FEATURES: "projects.keyFeatures",
+    TECH_DETAILS: "projects.techDetails",
+    VIEW_LIVE_ON_APP_STORE: "projects.viewLiveOnAppStore",
+    VIEW_LIVE_ON_PLAY_STORE: "projects.viewLiveOnPlayStore",
+    VIEW_PROJECT: "projects.viewProject",
 };
 
 // Certificates Section Constants
@@ -140,6 +147,22 @@ export const COMMON_CONSTANTS = {
     VIEW_LIVE_ON_PLAY_STORE: "common.view_live_on_play_store",
     VIEW_PROJECT: "common.view_project",
     SEARCH_PROJECTS: "common.search_projects",
+    REACT_NATIVE: "common.react_native",
+    FLUTTER: "common.flutter",
+    ANDROID: "common.android",
+    IOS: "common.ios",
+    UI_UX: "common.ui_ux",
+    REACT_NATIVE_APP: "common.react_native_app",
+    FLUTTER_APP: "common.flutter_app",
+    ANDROID_APP: "common.android_app",
+    IOS_APP: "common.ios_app",
+    REACT_NATIVE_MOBILE_APP: "common.react_native_mobile_app",
+    NO_FEATURES_AVAILABLE: "common.no_features_available",
+    NO_TECH_DETAILS_AVAILABLE: "common.no_tech_details_available",
+    FLUTTER_MOBILE_APP: "common.flutter_mobile_app",
+    ANDROID_MOBILE_APP: "common.android_mobile_app",
+    IOS_MOBILE_APP: "common.ios_mobile_app",
+    ANDROID_IOS: "common.android_ios",
 };
 
 // Email Service Constants
@@ -150,3 +173,4 @@ export const EMAIL_CONSTANTS = {
     DEFAULT_RECIPIENT: 'jhetvi0308@gmail.com',
     SUCCESS_MESSAGE: "Email sent Successfully",
 };
+

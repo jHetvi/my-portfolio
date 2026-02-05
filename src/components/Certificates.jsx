@@ -44,7 +44,7 @@ const Certificates = () => {
 
     return (
         <section id="certificates" className="bg-bg_light_primary">
-            <div className="md:container px-5 py-14">
+            <div className="md:container px-4 sm:px-5 py-10 sm:py-14">
                 <h2 className="title" data-aos="fade-down">
                     {t('certificates.title')}
                 </h2>
@@ -59,18 +59,32 @@ const Certificates = () => {
                     data-aos="fade-up"
                     spaceBetween={20}
                     modules={[Pagination]}
-                    className="rounded-3xl pb-16 max-w-3xl mx-auto"
+                    className="rounded-3xl pb-12 sm:pb-16 max-w-3xl mx-auto"
+                    breakpoints={{
+                        320: {
+                            slidesPerView: 1,
+                            spaceBetween: 10,
+                        },
+                        480: {
+                            slidesPerView: 1.5,
+                            spaceBetween: 15,
+                        },
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                    }}
                 >
                     {certificates.certificates_content.map((content, i) => (
                         <SwiperSlide
                             key={i}
-                            className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] flex flex-col items-center cursor-pointer hover:shadow-lg transition-shadow duration-300"
+                            className="bg-white rounded-3xl p-4 sm:p-5 border-b-8 border-[#FAF9FD] flex flex-col items-center cursor-pointer hover:shadow-lg transition-shadow duration-300"
                             onClick={(e) => handleLinksClick(e, content.links)}
                         >
-                            <img src={content.image} alt="..." className="h-48 object-contain mb-4" />
+                            <img src={content.image} alt="..." className="h-36 sm:h-40 md:h-48 object-contain mb-4" />
                             <div className="text-center">
-                                <h5 className="font-bold font-Poppins text-xl mb-2">{t(`certificates.names.${i}`)}</h5>
-                                <p className="text-gray text-sm mb-3">{t(`certificates.issuers.${i}`)} | {t(`certificates.dates.${i}`)}</p>
+                                <h5 className="font-bold font-Poppins text-lg sm:text-xl mb-2">{t(`certificates.names.${i}`)}</h5>
+                                <p className="text-gray text-xs sm:text-sm mb-3">{t(`certificates.issuers.${i}`)} | {t(`certificates.dates.${i}`)}</p>
                                 {content.links && content.links.length > 0 && (
                                     <div className="flex flex-wrap justify-center gap-2 mt-3">
                                         <span className="text-primary text-xs bg-primary/10 px-3 py-1 rounded-full">

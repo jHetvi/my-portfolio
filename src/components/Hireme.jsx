@@ -16,7 +16,7 @@ const Hireme = () => {
 
   return (
     <section className="bg-bg_light_primary">
-      <div className="md:container px-5 pt-14">
+      <div className="md:container px-5 pt-10 sm:pt-14">
         <h2 className="title" data-aos="fade-down">
           {t(HIREME_CONSTANTS.TITLE)}
         </h2>
@@ -24,22 +24,22 @@ const Hireme = () => {
           {t(HIREME_CONSTANTS.SUBTITLE)}
         </h4>
         <br />
-        <div className="flex items-center md:flex-row flex-col-reverse ">
+        <div className="flex items-center md:flex-row flex-col-reverse gap-6 md:gap-10">
           <img
             src={Hireme.image1}
             alt="..."
             data-aos="fade-right"
-            className="max-w-sm md:block hidden"
+            className="max-w-[200px] sm:max-w-sm md:block hidden"
           />
           <div
             data-aos="fade-left"
-            className="border-2 border-dark_primary max-w-sm
-           p-6 shadow-sm rounded-xl rounded-br-[8rem] sm:min-w-[22rem]"
+            className="border-2 border-dark_primary max-w-full sm:max-w-sm md:max-w-lg
+           p-4 sm:p-6 shadow-sm rounded-xl rounded-br-[4rem] sm:min-w-[22rem] w-full"
           >
-            <p className="leading-7">{t(HIREME_CONSTANTS.PARA)}</p>
+            <p className="leading-7 text-sm sm:text-base">{t(HIREME_CONSTANTS.PARA)}</p>
             <br />
             <button
-              className="btn bg-dark_primary text-white"
+              className="btn bg-dark_primary text-white text-sm sm:text-base"
               onClick={scrollToContact}
             >
               {t(HIREME_CONSTANTS.BTN_TEXT)}

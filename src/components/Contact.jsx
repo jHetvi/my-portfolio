@@ -53,7 +53,7 @@ const Contact = () => {
   return (
     <section className="bg-dark_primary text-white" id={SECTION_IDS.CONTACT}>
       <Toaster />
-      <div className="md:container px-5 py-14">
+      <div className="md:container px-5 py-10 sm:py-14">
         <h2 className="title !text-white" data-aos="fade-down">
           {t(CONTACT_CONSTANTS.TITLE)}
         </h2>
@@ -61,12 +61,12 @@ const Contact = () => {
           {t(CONTACT_CONSTANTS.SUBTITLE)}
         </h4>
         <br />
-        <div className="flex gap-10 md:flex-row flex-col">
+        <div className="flex gap-6 md:gap-10 md:flex-row flex-col">
           <form
             ref={form}
             onSubmit={sendEmail}
             data-aos="fade-up"
-            className="flex-1 flex flex-col gap-5"
+            className="flex-1 flex flex-col gap-4 sm:gap-5"
           >
 
             <input
@@ -74,7 +74,7 @@ const Contact = () => {
               name="from_name"
               placeholder={t(CONTACT_CONSTANTS.NAME)}
               required
-              className="border border-slate-600 p-3 rounded"
+              className="border border-slate-600 p-3 rounded text-dark_primary"
             />
             <input
               type="email"
@@ -82,22 +82,22 @@ const Contact = () => {
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
               placeholder={t(CONTACT_CONSTANTS.EMAIL)}
               required
-              className="border border-slate-600 p-3 rounded"
+              className="border border-slate-600 p-3 rounded text-dark_primary"
             />
             <textarea
               name="message"
               placeholder={t(CONTACT_CONSTANTS.MESSAGE)}
-              className="border border-slate-600 p-3 rounded h-44"
+              className="border border-slate-600 p-3 rounded h-32 sm:h-44 text-dark_primary"
               required
             ></textarea>
             <button
               className="btn self-start
-            bg-white text-dark_primary"
+            bg-white text-dark_primary text-sm sm:text-base"
             >
               {t(CONTACT_CONSTANTS.SUBMIT)}
             </button>
           </form>
-          <div className="flex-1 flex flex-col gap-5">
+          <div className="flex-1 flex flex-col gap-4 sm:gap-5">
             {Contact.social_media.map((content, i) => (
               <div
                 key={i}
@@ -106,7 +106,7 @@ const Contact = () => {
                 className="flex items-center gap-2"
               >
                 <h4 className="text-white">{createElement(content.icon)}</h4>
-                <a className="font-Poppins" href={content.link} target="_blank">
+                <a className="font-Poppins text-sm sm:text-base break-all" href={content.link} target="_blank">
                   {t(`${CONTACT_CONSTANTS.SOCIAL_TEXTS}.${i}`)}
                 </a>
               </div>
