@@ -26,11 +26,8 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Clean up any existing worktrees
-        run: |
-          git worktree list | grep -q "github-pages-deploy-action-temp-deployment-folder" && \
-          git worktree remove github-pages-deploy-action-temp-deployment-folder --force || true
-        continue-on-error: true
+      - name: Clean up stale worktrees
+        run: git worktree prune
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
