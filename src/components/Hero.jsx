@@ -31,7 +31,11 @@ const Hero = () => {
 
         {/* first col */}
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
-          <h2>{t(HERO_CONSTANTS.TITLE)}</h2>
+          <h2
+            className={ "max-w-[15ch] md:max-w-[18ch] leading-[1.1] break-words" }
+          >
+            {t(HERO_CONSTANTS.TITLE)}
+          </h2>
           <br />
           <div className="flex justify-start">
             <button className="btn" onClick={scrollToContact}>{t(HERO_CONSTANTS.BTN_TEXT)}</button>

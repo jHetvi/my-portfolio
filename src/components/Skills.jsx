@@ -33,51 +33,66 @@ Modal.setAppElement("#root");
 
 // Map skill keys to translation keys
 const skillTranslationKeys = {
-  "React Native Development": {
-    name: "skills.reactNativeDevelopment",
-    para: "skills.reactNativePara",
-    details: "skills.reactNativeDetails"
+  "Cross-Platform Mobile Development": {
+    name: "skills.crossPlatformMobileDevelopment",
+    para: "skills.crossPlatformMobileDevelopmentPara",
+    details: "skills.crossPlatformMobileDevelopmentDetails"
   },
-  "Flutter Development": {
-    name: "skills.flutterDevelopment",
-    para: "skills.flutterPara",
-    details: "skills.flutterDetails"
+  "Native Mobile Development": {
+    name: "skills.nativeMobileDevelopment",
+    para: "skills.nativeMobileDevelopmentPara",
+    details: "skills.nativeMobileDevelopmentDetails"
   },
-  "Android Development": {
-    name: "skills.androidDevelopment",
-    para: "skills.androidPara",
-    details: "skills.androidDetails"
+  "Architecture & Technical Leadership": {
+    name: "skills.architectureTechnicalLeadershipDevelopment",
+    para: "skills.architectureTechnicalLeadershipDevelopmentPara",
+    details: "skills.architectureTechnicalLeadershipDevelopmentDetails"
   },
-  "iOS Development": {
-    name: "skills.iOSDevelopment",
-    para: "skills.iosPara",
-    details: "skills.iosDetails"
+  "Backend, APIs & Data Management": {
+    name: "skills.backendAPIsData",
+    para: "skills.backendAPIsDataPara",
+    details: "skills.backendAPIsDataDetails"
   },
-  "API Integration & Web Services": {
-    name: "skills.apiIntegration",
-    para: "skills.apiPara",
-    details: "skills.apiDetails"
+  "Cloud & Third-Party Integrations": {
+    name: "skills.cloudThirdPartyIntegration",
+    para: "skills.cloudThirdPartyIntegrationPara",
+    details: "skills.cloudThirdPartyIntegrationDetails"
   },
-  "Mobile App Architecture": {
-    name: "skills.mobileArchitecture",
-    para: "skills.mobilePara",
-    details: "skills.mobileArchitectureDetails"
+  "Testing & Engineering Quality": {
+    name: "skills.testingEngineeringQuality",
+    para: "skills.testingEngineeringQualityPara",
+    details: "skills.testingEngineeringQualityDetails"
   },
-  "Cloud & Backend Integration": {
-    name: "skills.cloudBackend",
-    para: "skills.cloudPara",
-    details: "skills.cloudBackendDetails"
+  "CI/CD, DevOps & Release Engineering": {
+    name: "skills.cicdDevopsReleaseEngineering",
+    para: "skills.cicdDevopsReleaseEngineeringPara",
+    details: "skills.cicdDevopsReleaseEngineeringDetails"
   },
-  "CI/CD & DevOps Tools": {
-    name: "skills.ciDevOps",
-    para: "skills.devOpsPara",
-    details: "skills.ciDevOpsDetails"
+  "Observability & Production Operations": {
+    name: "skills.observabilityProductionOperations",
+    para: "skills.observabilityProductionOperationsPara",
+    details: "skills.observabilityProductionOperationsDetails"
   },
-  "UI/UX Design & Prototyping": {
-    name: "skills.uiUxDesign",
-    para: "skills.uiUxPara",
-    details: "skills.uiUxDetails"
-  }
+  "AI & Engineering Automation": {
+    name: "skills.aiEngineeringAutomation",
+    para: "skills.aiEngineeringAutomationPara",
+    details: "skills.aiEngineeringAutomationDetails"
+  },
+  "Technical Leadership & Delivery": {
+    name: "skills.technicalLeadershipDelivery",
+    para: "skills.technicalLeadershipDeliveryPara",
+    details: "skills.technicalLeadershipDeliveryDetails"
+  },
+  "Security, Reliability & Compliance": {
+    name: "skills.securityReliabilityCompliance",
+    para: "skills.securityReliabilityCompliancePara",
+    details: "skills.securityReliabilityComplianceDetails"
+  },
+  "UI/UX & Product Design": {
+    name: "skills.uiuxProductDesign",
+    para: "skills.uiuxProductDesignPara",
+    details: "skills.uiuxProductDesignDetails"
+  },
 };
 
 const Skills = () => {

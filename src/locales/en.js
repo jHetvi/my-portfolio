@@ -9,11 +9,11 @@ export const en = {
         certificates: "Certificates"
     },
     hero: {
-        title: "Applications Developer",
+        title: "Lead Mobile & Full-Stack Engineer ",
         firstName: "HETVI",
         lastName: "TRIVEDI",
         btnText: "Hire Me",
-        experienceCount: "6+",
+        experienceCount: "7+",
         experienceText: "Years of Experience in Mobile Applications Development",
         projectsCount: "30+",
         projectsText: "Projects Worked in my career"
@@ -30,75 +30,115 @@ export const en = {
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est beatae quos rem."
         ],
         // Skill names
-        reactNativeDevelopment: "React Native Development",
-        flutterDevelopment: "Flutter Development",
-        androidDevelopment: "Android Development",
-        iOSDevelopment: "iOS Development",
-        apiIntegration: "API Integration & Web Services",
-        mobileArchitecture: "Mobile App Architecture",
-        cloudBackend: "Cloud & Backend Integration",
-        ciDevOps: "CI/CD & DevOps Tools",
-        uiUxDesign: "UI/UX Design & Prototyping",
+        crossPlatformMobileDevelopment: "Cross-Platform Mobile Development",
+        nativeMobileDevelopment: "Native Mobile Development",
+        architectureTechnicalLeadershipDevelopment: "Architecture & Technical Leadership",
+        backendAPIsData: "Backend, APIs & Data Management",
+        cloudThirdPartyIntegration: "Cloud & Third-Party Integrations",
+        testingEngineeringQuality: "Testing & Engineering Quality",
+        cicdDevopsReleaseEngineering: "CI/CD, DevOps & Release Engineering",
+        observabilityProductionOperations: "Observability & Production Operations",
+        aiEngineeringAutomation: "AI & Engineering Automation",
+        technicalLeadershipDelivery: "Technical Leadership & Delivery",
+        securityReliabilityCompliance: "Security, Reliability & Compliance",
+        uiuxProductDesign: "UI/UX & Product Design",
         // Skill paras
-        reactNativePara: "Javascript, Typescript, RN CLI, Expo",
-        flutterPara: "Dart, Flutter SDK, BLoC, Provide",
-        androidPara: "Java, Kotlin, Jetpack",
-        iosPara: "Swift, Objective-C, UIKit, UItoolkit",
-        apiPara: "REST, GraphQL, SOAP",
-        mobilePara: "MVVM, MVP, MVC, VIPER, Clean Architecture",
-        cloudPara: "AWS, Firebase, Azure, Supabase, MongoDB, MySQL, Node.js/Express.js",
-        devOpsPara: "GitHub, GitLab, Jenkins, Docker, Terraform, AppCenter, ADO",
-        uiUxPara: "Figma, Adobe XD, Photoshop, InVision",
+        crossPlatformMobileDevelopmentPara: "React Native, React, TypeScript, JavaScript, Expo, Flutter",
+        nativeMobileDevelopmentPara: "iOS, Android, Swift, Kotlin, Java, Objective-C",
+        architectureTechnicalLeadershipDevelopmentPara: "Mobile Architecture, Clean Architecture, Design Patterns, Scalability",
+        backendAPIsDataPara: "Node.js, Express.js, REST, GraphQL, SQL, NoSQL",
+        cloudThirdPartyIntegrationPara: "AWS, Azure, Firebase, Google Cloud, SDK Integrations",
+        testingEngineeringQualityPara: "Jest, Detox, XCTest, JUnit, Automation & Quality Gates",
+        cicdDevopsReleaseEngineeringPara: "GitHub Actions, GitLab CI, Jenkins, Docker, Kubernetes",
+        observabilityProductionOperationsPara: "Sentry, Dynatrace, Datadog, APM & Production Support",
+        aiEngineeringAutomationPara: "AI Agents, Developer Automation, AI-Assisted Engineering",
+        securityReliabilityCompliancePara: "Secure Mobile Development, API Security, Application Reliability",
+        technicalLeadershipDeliveryPara: "Architecture, Mentoring, Engineering Standards & Delivery",
+        uiuxProductDesignPara: "Figma, Adobe XD, Prototyping & Design Collaboration",
+
         // Skill details
-        reactNativeDetails: [
-            "React Native Technology: JavaScript, TypeScript, RN CLI, Expo",
-            "RN Packages: Navigation, geolocation, thunk, Redux, Pendo, Maps, Axios, Lottie, skeleton, Reanimated, React Query, Gesture Handler, socket.io - client, etc.",
-            "Testing Frameworks: Jest, Detox, Mocha, Enzyme"
+        crossPlatformMobileDevelopmentDetails: [
+            "React Native: React Native, React, JavaScript, TypeScript, RN CLI, Expo",
+      "State Management: Redux, Redux Toolkit, Zustand, Recoil, Context API, React Query, Apollo Client, BLoC, Provider, Riverpod",
+      "React Native Libraries: React Navigation, Reanimated, Gesture Handler, Lottie, Geolocation, Maps, Axios",
+      "Flutter: Dart, Flutter SDK, Dio, HTTP, flutter_bloc, Provider, GetIt, RxDart, fl_chart, QrFlutter, scoped_model, intl, flavorizr"
         ],
-        flutterDetails: [
-            "Flutter Technology: Dart, Flutter SDK",
-            "Flutter Packages: Provider, Dio, http, flutter_bloc, Fl_chart, GetIt, RxDart, Qr_flutter, scoped_model, intl, flavorizr, etc.",
-            "Testing Frameworks: Flutter Test, Mockito"
+        nativeMobileDevelopmentDetails: [
+            "iOS: Swift, Objective-C, iOS SDK, UIKit, CoreData, CoreLocation, MapKit, AVFoundation, CocoaPods",
+      "iOS Libraries: Alamofire, SwiftyJSON",
+      "Android: Kotlin, Java, Android SDK, AndroidX, Jetpack, Gradle, Maven, Kotlin Coroutines, RxJava, Room",
+      "Android Libraries: Dagger-Hilt, Retrofit, AsyncHttp"
         ],
-        androidDetails: [
-            "Android Technology: Java, Kotlin, Gradle, Maven, Android SDK",
-            "Android Libraries: Dagger-Hilt, Jetpack, Retrofit, AsyncHttp, RxJava, Androidx, Kotlin Coroutines, Room, etc...",
-            "Testing Frameworks: Junit, Mockito, Jasmine"
+        architectureTechnicalLeadershipDevelopmentDetails: [
+            "Architecture: Mobile & Full-Stack Architecture, Clean Architecture, MVVM, MVC, MVP, VIPER",
+      "Design Patterns: Singleton, Factory, Observer, Dependency Injection",
+      "Engineering: Component Design, Modularization, Reusable Components, API & SDK Architecture, Type Safety",
+      "Technical Leadership: Coding Standards, Code Reviews, Architecture Reviews, Technical Decision-Making, Technical Debt Management",
+      "Engineering Practices: Refactoring, System Modernization, Scalability Planning, Performance Optimization, Accessibility, Internationalization",
         ],
-        iosDetails: [
-            "iOS Technology: Swift, Objective-C, pods, iOS SDK",
-            "iOS Libraries: Alamofire, SwiftyJSON, CoreData, UIKit, CoreLocation, MapKit, AVFoundation, etc...",
-            "Testing Frameworks: XCTest, Quick, Nimble"
+        backendAPIsDataDetails: [
+           "Backend: Node.js, Express.js, Python, Django, Java, Spring Boot",
+      "APIs & Services: REST, GraphQL, SOAP, WebSockets, Socket.IO, JSON, XML",
+      "Authentication: OAuth, JWT, Basic Authentication",
+      "Databases: MySQL, PostgreSQL, MongoDB, Oracle, Firebase Realtime Database",
         ],
-        apiDetails: [
-            "API Integration: REST, GraphQL, SOAP",
-            "3rd Party API and SDK: GoogleMap, starPRNT, Firebase, sentry.io, datadog, Azure, AWS, ARKit, Stripe, Unity, Oculus, Vimeo, Shazam, Scandit, coinbase, Google Cloud Vision, Google Analytics, Amazon Alexa, etc...",
-            "Web Services: JSON, XML, WebSockets",
-            "Web Technologies: HTML, CSS, Node.js/Express.js, JavaScript/TypeScript",
-            "Authentication: OAuth, JWT, Basic Auth",
-            "Databases: MySQL, PostgreSQL, Oracle, Firebase, MongoDB"
+        cloudThirdPartyIntegrationDetails: [
+            "Cloud Platforms: AWS, Azure, Google Cloud, Firebase, Supabase",
+      "Payment & Business SDKs: Stripe, Coinbase, StarPRNT",
+      "Mobile & Platform SDKs: Google Maps, Scandit, Pendo, OneSignal, CodePush",
+      "Specialized Integrations: Unity, ARKit, Oculus, Vimeo, Shazam, Google Cloud Vision, Google Analytics, Amazon Alexa",
         ],
-        mobileArchitectureDetails: [
-            "Mobile App Architecture: MVVM, MVP, MVC, VIPER, Clean Architecture",
-            "Design Patterns: Singleton, Factory, Observer, Dependency Injection",
-            "State Management: Redux, BLoC, Provider, Riverpod"
+        testingEngineeringQualityDetails: [
+            "React Native & JavaScript: Jest, Detox, Mocha, Enzyme",
+      "Flutter: Flutter Test, Mockito",
+      "Android: JUnit, Mockito, Jasmine",
+      "iOS: XCTest, Quick, Nimble",
+      "Quality Engineering: Unit Testing, Integration Testing, End-to-End Testing, Test Automation, Code Coverage",
+      "Static Quality: ESLint, Prettier, Static Analysis, Type Checking, Automated Quality Gates",
         ],
-        cloudBackendDetails: [
-            "Cloud Platforms: AWS, Firebase, Azure, Supabase",
-            "Backend Technologies: Node.js/Express.js, Python/Django, Ruby on Rails",
-            "Database Management: MongoDB, MySQL, PostgreSQL, Firebase Realtime Database"
+        cicdDevopsReleaseEngineeringDetails: [
+             "Version Control: Git, GitHub, GitLab, Branching Strategies, Commit Policies",
+      "CI/CD: GitHub Actions, GitLab CI/CD, Jenkins, Azure DevOps, App Center",
+      "Mobile Releases: Expo EAS, CodePush, OTA Updates, Mobile Release Management",
+      "Automation: CI/CD Pipeline Architecture, Build & Release Automation, Shell Scripting, Pre-Merge Validation",
+      "Infrastructure: Docker, Kubernetes, Terraform, CloudFormation",
+      "Configuration: Environment Management, Secrets Management, Build Configuration",
         ],
-        ciDevOpsDetails: [
-            "Version Control: Git, GitHub, GitLab",
-            "CI/CD Tools: Jenkins, GitHub Actions, GitLab CI",
-            "Containerization: Docker, Kubernetes",
-            "Infrastructure as Code: Terraform, CloudFormation",
-            "Monitoring & Logging: Datadog, Sentry, Grafana"
+        observabilityProductionOperationsDetails: [
+            "Monitoring: Sentry, Dynatrace, Datadog, Firebase Performance Monitoring, Grafana",
+      "Observability: Crash & Error Monitoring, Session Replay, Application Performance Monitoring, Logging & Diagnostics",
+      "Production Operations: Production Monitoring, Performance Monitoring, On-Call Support, Incident Response",
+      "Troubleshooting: Incident Investigation, Root Cause Analysis (RCA), Production Diagnostics, Post-Incident Analysis",
+      "Reliability: Reliability Engineering, Performance Optimization, Production Resilience",
         ],
-        uiUxDetails: [
+        aiEngineeringAutomationDetails: [
+              "AI Engineering: AI-Assisted Software Development, AI Agents, Agent Skills, GitHub Copilot",
+      "AI Automation: Automated PR Reviews, AI-Powered Code Analysis, AI-Assisted Testing, Test Generation",
+      "Developer Productivity: Engineering Workflow Automation, Developer Productivity Automation, Intelligent Developer Tooling",
+      "Engineering Automation: CI/CD Automation, Scripting, Repetitive Task Automation, Automated Documentation",
+      "AI Governance: Copilot Instruction Files, Coding Standards Enforcement, Automated Engineering Guidelines",
+        ],
+        securityReliabilityComplianceDetails: [
+            "Application Security: Secure Mobile Development, Authentication & Authorization, API Security",
+      "Data Security: Secure Data Handling, Secrets Management, Configuration Management",
+      "Mobile Security: Mobile Permissions, Dependency & SDK Security, Secure Storage",
+      "CI/CD Security: Secure Pipeline Practices, Dependency Validation, Automated Security Checks",
+      "Reliability: Application Resilience, Performance Optimization, Production Reliability",
+
+        ],
+        technicalLeadershipDeliveryDetails: [
+              "Technical Leadership: Technical Design, Architecture Reviews, Technical Decision-Making, Engineering Standards",
+      "Code Leadership: Code Review Leadership, Coding Standards, Refactoring Strategy, Technical Debt Management",
+      "Team Enablement: Mentoring, Technical Guidance, Developer Productivity, Engineering Best Practices",
+      "Delivery: Cross-Functional Collaboration, Agile/Scrum, Risk Identification & Mitigation, Production Ownership",
+      "Scalability: System Modernization, Scalability Planning, Performance & Reliability Engineering",
+    ],
+        uiuxProductDesignDetails: [
             "Design Tools: Figma, Adobe XD, Sketch, InVision, Photoshop, Illustrator",
-            "Prototyping Tools: Marvel, Axure, Balsamiq",
-            "User Testing: UsabilityHub, Lookback, Hotjar"
+      "Prototyping: Marvel, Axure, Balsamiq",
+      "Product Design: UI/UX Collaboration, Design System Integration, Responsive Design",
+      "User Experience: Usability Testing, Accessibility, Internationalization",
+
         ]
     },
     education: {
@@ -121,6 +161,8 @@ export const en = {
         title: "Experience",
         subtitle: "MY PROFESSIONAL JOURNEY",
         companies: [
+            "RBCx",
+            "Project X/Global Faces Direct",
             "SkipTheDishes",
             "Dropify Technologies",
             "Sunflower Labs",
@@ -130,6 +172,8 @@ export const en = {
             "Fusion Infotech"
         ],
         positions: [
+            "Lead Full Stack Engineer",
+            "Lead Mobile Architect",
             "Senior React Native Developer",
             "Volunteer Application Developer",
             "Senior Software Developer",
@@ -139,7 +183,9 @@ export const en = {
             "Graphics Designer"
         ],
         durations: [
-            "April 2024 - Present • 1 year 4 months",
+            "May 2026 - Present • 3 months",
+            "Nov 2025 - Jan 2026 • 3 months",
+            "April 2024 - May 2026 • 2 year 2 months",
             "Feb 2024 - May 2024 • 4 months",
             "Aug 2022 - Aug 2023 • 1 year 1 month",
             "Feb 2021 - July 2022 • 1 year 5 month",
@@ -150,6 +196,8 @@ export const en = {
         locations: [
             "Canada",
             "Canada",
+            "Canada",
+            "Canada",
             "United States",
             "India",
             "India",
@@ -158,6 +206,20 @@ export const en = {
         ],
         // Experience details - translated bullet points for each company
         details: {
+            rbcX: [
+                "Led the development of Mydoh, RBC's digital money-management platform, specializing in React Native, TypeScript, JavaScript, Expo, and native iOS/Android development.",
+                "Drove mobile and full-stack architecture, building scalable and reusable solutions with Node.js, Express.js, REST APIs, PostgreSQL, MongoDB, Firebase, and native technologies including Swift, Objective-C, Kotlin, and Java.",
+                "Established engineering standards and best practices across type safety, code structure, testing, refactoring, code reviews, accessibility, and maintainable React Native architecture.",
+                "Built and optimized CI/CD pipelines, automation scripts, quality gates, and developer tooling using Expo, CodePush, OneSignal, Dynatrace, and other engineering platforms to improve reliability and developer productivity.",
+                "Drove security- and privacy-conscious engineering practices across authentication, identity verification, API integrations, mobile permissions, secure data handling, and financial workflows.",
+                "Collaborated with product, design, backend, QA, architecture, and security teams to translate complex business requirements into scalable technical solutions while leveraging AI and automation to improve development efficiency and delivery."
+            ],
+            projectX: [
+                "Led the architecture and Phase 1 development of a scalable React Native mobile platform, owning application structure, core user journeys, navigation, authentication, feature flags, and cross-platform technical strategy.",
+                "Architected full-stack mobile solutions integrating React Native with Node.js, REST APIs, Socket.IO, SQL, and MongoDB, while designing secure, scalable, real-time experiences and evolving backend services to support business requirements.",
+                "Established engineering excellence and CI/CD practices, building pre-merge validation pipelines, automated unit tests, linting, type checks, coverage gates, commit/branch policies, and code-quality checks to enforce consistent coding standards and maintain a reliable codebase.",
+                "Drove AI-powered engineering automation and developer productivity, creating AI agent skills and automated PR-review workflows for code quality, architecture, security, testing, and coding-standard compliance, while providing technical leadership across development, reviews, releases, and production readiness."
+             ],
             skipTheDishes: [
                 "Lead development of high-performance Android, iOS, and React Native apps integrating secure RESTful APIs with OAuth 2.0, token-based auth, and SSL pinning, while ensuring PCI compliance and data privacy standards.",
                 "Developed workflows for GitHub Actions, improve Fastlane configuration for streamlined testing and TestFlight deployment, and shift code delivery from Microsoft App Center to Amazon S3 + CDN for faster, more reliable distribution. Integrated Sentry for real-time error monitoring and Session Replay for improved visibility and analytics into user behavior.",
@@ -227,6 +289,7 @@ export const en = {
         viewProject: "View Project",
         wip: "WIP",
         // Project categories
+        expoApp: "Expo App",
         reactNativeMobileApp: "React Native Mobile App",
         flutterMobileApp: "Flutter Mobile App",
         androidMobileApp: "Android Mobile App",
@@ -239,6 +302,7 @@ export const en = {
         android: "Android",
         uiUx: "UI/UX",
         // Project titles
+        mydoh: "Mydoh",
         skipRestaurantPartners: "Skip-Restaurant Partners",
         xMedOnlineDoctorConsultation: "XMed - Online Doctor Consultation",
         bloodWaleBhaiyya: "BloodWale Bhaiyya",
@@ -257,6 +321,7 @@ export const en = {
         dphThinkLikeAGirl: "DPH- Think like a girl",
         aesPetrolPumpManagement: "AES(Petrol Pump Management)",
         // Project descriptions
+        mydohDesc: "Mydoh is a comprehensive digital money-management platform designed to empower users with financial literacy and control. It offers a suite of features including budgeting tools, savings goals, spending insights, and educational resources to help users make informed financial decisions. With a user-friendly interface and secure data handling, Mydoh aims to simplify personal finance management for individuals and families.",
         skipRestaurantPartnersDesc: "A comprehensive restaurant management platform for Skip network partners, enabling efficient order processing, menu management, delivery logistics, and real-time restaurant performance analytics. This enterprise-grade application serves as the cornerstone for thousands of restaurant partners across multiple brands (Skip, Just Eat UK, Just Eat IT, Just Eat IE, Menulog) with white-label support and multi-region deployment. Led development using Agile methodologies, managing cross-functional teams across multiple time zones, with a focus on continuous delivery and operational excellence.",
         xMedDesc: "A comprehensive telemedicine platform providing 24/7 access to qualified medical professionals through secure video, audio, and text consultations. XMed bridges the healthcare accessibility gap, allowing patients to receive medical advice, prescriptions, and follow-up care from anywhere.",
         bloodWaleBhaiyyaDesc: "Bloodwale Bhaiyya is a comprehensive solution for blood-related emergencies, streamlining access to blood banks and donors through a centralized database. It helps users locate the nearest optimal blood bank, offers both self-pickup and fast delivery options, and motivates community donations with credits and social sharing features. By improving communication and inventory management, it ensures timely and efficient blood retrieval. In critical moments, Bloodwale Bhaiyya stands as a reliable companion to save lives.",
@@ -275,6 +340,18 @@ export const en = {
         dphThinkLikeAGirlDesc: "The EmpowerHer app is designed to empower girls by providing a platform for self-confidence building, giving back to others, finding their voice, and journaling. It offers a range of tasks and activities tailored to promote personal growth and empowerment. Please note that this app is not a substitute for professional medical or psychological services.",
         aesPetrolPumpManagementDesc: "AES is a comprehensive petrol pump management system designed to streamline operations, enhance efficiency, and improve customer service at fuel stations. The system offers features such as real-time inventory management, sales tracking, and reporting, enabling pump owners to make informed decisions and optimize their business processes.",
         // Project features arrays
+        mydohFeatures: [
+            "Budgeting tools for tracking income and expenses",
+            "Savings goals with progress tracking and notifications",
+            "Spending insights with visual charts and reports",
+            "Educational resources for financial literacy",
+            "Secure data handling and privacy protection",
+            "User-friendly interface for easy navigation",
+            "Multi-platform support (iOS, Android, Web)",
+            "Integration with bank accounts and payment methods",
+            "Customizable alerts for bill payments and due dates",
+            "Family account management with parental controls"
+        ],
         skipRestaurantPartnersFeatures: [
             "Real-time order management with instant notifications and status updates via Socket.io",
             "Comprehensive dashboard with sales analytics, order trends, and performance metrics",
@@ -391,6 +468,11 @@ export const en = {
             "Integration with Third-Party Tools"
         ],
         // Project tech details arrays
+        mydohTechDetails: [
+            "Expo SDK 54 with React Native and TypeScript for cross-platform mobile development.",
+            "Redux and Redux Toolkit for state management",
+            "Real-time communication",
+        ],
         skipRestaurantPartnersTechDetails: [
             "React Native (0.71.12) with TypeScript for cross-platform development",
             "Redux and Redux Toolkit for state management",

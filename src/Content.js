@@ -1,13 +1,16 @@
 import Hero_person from "./assets/images/Hero/person.png";
 
-import react from "./assets/images/Skills/react.png";
-import flutter from "./assets/images/Skills/flutter.png";
-import android from "./assets/images/Skills/android.png";
-import apple from "./assets/images/Skills/apple.png";
-import api from "./assets/images/Skills/api.png";
-import mobile from "./assets/images/Skills/mobile.png";
+import react_flutter from "./assets/images/Skills/react_native_flutter.png";
+import android_ios from "./assets/images/Skills/android_ios.png";
+import arch_tech from "./assets/images/Skills/arch_tech.png";
+import backend from "./assets/images/Skills/backend.png";
 import cloud from "./assets/images/Skills/cloud.png";
-import devops from "./assets/images/Skills/devops.png";
+import testing from "./assets/images/Skills/testing.png";
+import devops from "./assets/images/Skills/devops.jpeg";
+import monitoring from "./assets/images/Skills/monitoring.png";
+import ai from "./assets/images/Skills/ai.webp";
+import security from "./assets/images/Skills/security.webp";
+import leadership from "./assets/images/Skills/leadership.jpg";
 import ui from "./assets/images/Skills/ui.png";
 
 import education1 from "./assets/images/Education/education1.png";
@@ -18,7 +21,7 @@ import certificate2 from "./assets/images/Certificates/certificate2.png";
 import certificate3 from "./assets/images/Certificates/certificate3.png";
 import certificate4 from "./assets/images/Certificates/certificate4.png";
 
-
+import project0 from "./assets/images/Projects/mydoh.png";
 import project1 from "./assets/images/Projects/xmed.png";
 import project2 from "./assets/images/Projects/skip.png";
 import project3 from "./assets/images/Projects/redPositive.png";
@@ -77,14 +80,14 @@ export const content = {
     },
   ],
   hero: {
-    title: "Applications Developer",
+    title: "Lead Mobile & Full-Stack Engineer ",
     firstName: "HETVI",
     lastName: "TRIVEDI",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "6+",
+        count: "7+",
         text: "Years of Experience in Mobile Applications Development",
       },
       {
@@ -98,106 +101,179 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "React Native Development",
-        para: "Javascript, Typescript, RN CLI, Expo",
-        logo: react,
-        details: [
-          "React Native Technology: JavaScript, TypeScript, RN CLI, Expo",
-          "RN Packages: Navigation, geolocation, thunk, Redux, Pendo, Maps, Axios, Lottie, skeleton, Reanimated, React Query, Gesture Handler, socket.io - client, etc.",
-          "Testing Frameworks: Jest, Detox, Mocha, Enzyme"
-        ]
-      },
-      {
-        name: "Flutter Development",
-        para: "Dart, Flutter SDK, BLoC, Provide",
-        logo: flutter,
-        details: [
-          "Flutter Technology: Dart, Flutter SDK",
-          "Flutter Packages: Provider, Dio, http, flutter_bloc, Fl_chart, GetIt, RxDart, Qr_flutter, scoped_model, intl, flavorizr, etc.",
-          "Testing Frameworks: Flutter Test, Mockito"
-        ]
-      },
-      {
-        name: "Android Development",
-        para: "Java, Kotlin, Jetpack",
-        logo: android,
-        details: [
-          "Android Technology: Java, Kotlin, Gradle, Maven, Android SDK",
-          "Android Libraries: Dagger-Hilt, Jetpack, Retrofit, AsyncHttp, RxJava, Androidx, Kotlin Coroutines, Room, etc...",
-          "Testing Frameworks: Junit, Mockito, Jasmine"
-        ]
-      },
-      {
-        name: "iOS Development",
-        para: "Swift, Objective-C, UIKit, UItoolkit",
-        logo: apple,
-        details: [
-          "iOS Technology: Swift, Objective-C, pods, iOS SDK",
-          "iOS Libraries: Alamofire, SwiftyJSON, CoreData, UIKit, CoreLocation, MapKit, AVFoundation, etc...",
-          "Testing Frameworks: XCTest, Quick, Nimble"
-        ]
-      },
-      {
-        name: "API Integration & Web Services",
-        para: "REST, GraphQL, SOAP",
-        logo: api,
-        details: [
-          "API Integration: REST, GraphQL, SOAP",
-          "3rd Party API and SDK: GoogleMap, starPRNT, Firebase, sentry.io, datadog, Azure, AWS, ARKit, Stripe, Unity, Oculus, Vimeo, Shazam, Scandit, coinbase, Google Cloud Vision, Google Analytics, Amazon Alexa, etc...",
-          "Web Services: JSON, XML, WebSockets",
-          "Web Technologies: HTML, CSS, Node.js/Express.js, JavaScript/TypeScript",
-          "Authentication: OAuth, JWT, Basic Auth",
-          "Databases: MySQL, PostgreSQL, Oracle, Firebase, MongoDB"
-        ]
-      },
-      {
-        name: "Mobile App Architecture",
-        para: "MVVM, MVP, MVC, VIPER, Clean Architecture",
-        logo: mobile,
-        details: [
-          "Mobile App Architecture: MVVM, MVP, MVC, VIPER, Clean Architecture",
-          "Design Patterns: Singleton, Factory, Observer, Dependency Injection",
-          "State Management: Redux, BLoC, Provider, Riverpod"
-        ]
-      },
-      {
-        name: "Cloud & Backend Integration",
-        para: "AWS, Firebase, Azure, Supabase, MongoDB, MySQL, Node.js/Express.js",
-        logo: cloud,
-        details: [
-          "Cloud Platforms: AWS, Firebase, Azure, Supabase",
-          "Backend Technologies: Node.js/Express.js, Python/Django, Ruby on Rails",
-          "Database Management: MongoDB, MySQL, PostgreSQL, Firebase Realtime Database"
-        ]
-      },
-      {
-        name: "CI/CD & DevOps Tools",
-        para: "GitHub, GitLab, Jenkins, Docker, Terraform, AppCenter, ADO",
-        logo: devops,
-        details: [
-          "Version Control: Git, GitHub, GitLab",
-          "CI/CD Tools: Jenkins, GitHub Actions, GitLab CI",
-          "Containerization: Docker, Kubernetes",
-          "Infrastructure as Code: Terraform, CloudFormation",
-          "Monitoring & Logging: Datadog, Sentry, Grafana"
-        ]
-      },
-      {
-        name: "UI/UX Design & Prototyping",
-        para: "Figma, Adobe XD, Photoshop, InVision",
-        logo: ui,
-        details: [
-          "Design Tools: Figma, Adobe XD, Sketch, InVision, Photoshop, Illustrator",
-          "Prototyping Tools: Marvel, Axure, Balsamiq",
-          "User Testing: UsabilityHub, Lookback, Hotjar"
-        ]
-      },
+    name: "Cross-Platform Mobile Development",
+    para: "React Native, React, TypeScript, JavaScript, Expo, Flutter",
+    logo: react_flutter,
+    details: [
+      "React Native: React Native, React, JavaScript, TypeScript, RN CLI, Expo",
+      "State Management: Redux, Redux Toolkit, Zustand, Recoil, Context API, React Query, Apollo Client, BLoC, Provider, Riverpod",
+      "React Native Libraries: React Navigation, Reanimated, Gesture Handler, Lottie, Geolocation, Maps, Axios",
+      "Flutter: Dart, Flutter SDK, Dio, HTTP, flutter_bloc, Provider, GetIt, RxDart, fl_chart, QrFlutter, scoped_model, intl, flavorizr",
+    ],
+  },
+
+  {
+    name: "Native Mobile Development",
+    para: "iOS, Android, Swift, Kotlin, Java, Objective-C",
+    logo: android_ios,
+    details: [
+      "iOS: Swift, Objective-C, iOS SDK, UIKit, CoreData, CoreLocation, MapKit, AVFoundation, CocoaPods",
+      "iOS Libraries: Alamofire, SwiftyJSON",
+      "Android: Kotlin, Java, Android SDK, AndroidX, Jetpack, Gradle, Maven, Kotlin Coroutines, RxJava, Room",
+      "Android Libraries: Dagger-Hilt, Retrofit, AsyncHttp",
+    ],
+  },
+
+  {
+    name: "Architecture & Technical Leadership",
+    para: "Mobile Architecture, Clean Architecture, Design Patterns, Scalability",
+    logo: arch_tech,
+    details: [
+      "Architecture: Mobile & Full-Stack Architecture, Clean Architecture, MVVM, MVC, MVP, VIPER",
+      "Design Patterns: Singleton, Factory, Observer, Dependency Injection",
+      "Engineering: Component Design, Modularization, Reusable Components, API & SDK Architecture, Type Safety",
+      "Technical Leadership: Coding Standards, Code Reviews, Architecture Reviews, Technical Decision-Making, Technical Debt Management",
+      "Engineering Practices: Refactoring, System Modernization, Scalability Planning, Performance Optimization, Accessibility, Internationalization",
+    ],
+  },
+
+  {
+    name: "Backend, APIs & Data Management",
+    para: "Node.js, Express.js, REST, GraphQL, SQL, NoSQL",
+    logo: backend,
+    details: [
+      "Backend: Node.js, Express.js, Python, Django, Java, Spring Boot",
+      "APIs & Services: REST, GraphQL, SOAP, WebSockets, Socket.IO, JSON, XML",
+      "Authentication: OAuth, JWT, Basic Authentication",
+      "Databases: MySQL, PostgreSQL, MongoDB, Oracle, Firebase Realtime Database",
+    ],
+  },
+
+  {
+    name: "Cloud & Third-Party Integrations",
+    para: "AWS, Azure, Firebase, Google Cloud, SDK Integrations",
+    logo: cloud,
+    details: [
+      "Cloud Platforms: AWS, Azure, Google Cloud, Firebase, Supabase",
+      "Payment & Business SDKs: Stripe, Coinbase, StarPRNT",
+      "Mobile & Platform SDKs: Google Maps, Scandit, Pendo, OneSignal, CodePush",
+      "Specialized Integrations: Unity, ARKit, Oculus, Vimeo, Shazam, Google Cloud Vision, Google Analytics, Amazon Alexa",
+    ],
+  },
+
+  {
+    name: "Testing & Engineering Quality",
+    para: "Jest, Detox, XCTest, JUnit, Automation & Quality Gates",
+    logo: testing,
+    details: [
+      "React Native & JavaScript: Jest, Detox, Mocha, Enzyme",
+      "Flutter: Flutter Test, Mockito",
+      "Android: JUnit, Mockito, Jasmine",
+      "iOS: XCTest, Quick, Nimble",
+      "Quality Engineering: Unit Testing, Integration Testing, End-to-End Testing, Test Automation, Code Coverage",
+      "Static Quality: ESLint, Prettier, Static Analysis, Type Checking, Automated Quality Gates",
+    ],
+  },
+
+  {
+    name: "CI/CD, DevOps & Release Engineering",
+    para: "GitHub Actions, GitLab CI, Jenkins, Docker, Kubernetes",
+    logo: devops,
+    details: [
+      "Version Control: Git, GitHub, GitLab, Branching Strategies, Commit Policies",
+      "CI/CD: GitHub Actions, GitLab CI/CD, Jenkins, Azure DevOps, App Center",
+      "Mobile Releases: Expo EAS, CodePush, OTA Updates, Mobile Release Management",
+      "Automation: CI/CD Pipeline Architecture, Build & Release Automation, Shell Scripting, Pre-Merge Validation",
+      "Infrastructure: Docker, Kubernetes, Terraform, CloudFormation",
+      "Configuration: Environment Management, Secrets Management, Build Configuration",
+    ],
+  },
+
+  {
+    name: "Observability & Production Operations",
+    para: "Sentry, Dynatrace, Datadog, APM & Production Support",
+    logo: monitoring,
+    details: [
+      "Monitoring: Sentry, Dynatrace, Datadog, Firebase Performance Monitoring, Grafana",
+      "Observability: Crash & Error Monitoring, Session Replay, Application Performance Monitoring, Logging & Diagnostics",
+      "Production Operations: Production Monitoring, Performance Monitoring, On-Call Support, Incident Response",
+      "Troubleshooting: Incident Investigation, Root Cause Analysis (RCA), Production Diagnostics, Post-Incident Analysis",
+      "Reliability: Reliability Engineering, Performance Optimization, Production Resilience",
+    ],
+  },
+
+  {
+    name: "AI & Engineering Automation",
+    para: "AI Agents, Developer Automation, AI-Assisted Engineering",
+    logo: ai,
+    details: [
+      "AI Engineering: AI-Assisted Software Development, AI Agents, Agent Skills, GitHub Copilot",
+      "AI Automation: Automated PR Reviews, AI-Powered Code Analysis, AI-Assisted Testing, Test Generation",
+      "Developer Productivity: Engineering Workflow Automation, Developer Productivity Automation, Intelligent Developer Tooling",
+      "Engineering Automation: CI/CD Automation, Scripting, Repetitive Task Automation, Automated Documentation",
+      "AI Governance: Copilot Instruction Files, Coding Standards Enforcement, Automated Engineering Guidelines",
+    ],
+  },
+
+  {
+    name: "Security, Reliability & Compliance",
+    para: "Secure Mobile Development, API Security, Application Reliability",
+    logo: security,
+    details: [
+      "Application Security: Secure Mobile Development, Authentication & Authorization, API Security",
+      "Data Security: Secure Data Handling, Secrets Management, Configuration Management",
+      "Mobile Security: Mobile Permissions, Dependency & SDK Security, Secure Storage",
+      "CI/CD Security: Secure Pipeline Practices, Dependency Validation, Automated Security Checks",
+      "Reliability: Application Resilience, Performance Optimization, Production Reliability",
+    ],
+  },
+
+  {
+    name: "Technical Leadership & Delivery",
+    para: "Architecture, Mentoring, Engineering Standards & Delivery",
+    logo: leadership,
+    details: [
+      "Technical Leadership: Technical Design, Architecture Reviews, Technical Decision-Making, Engineering Standards",
+      "Code Leadership: Code Review Leadership, Coding Standards, Refactoring Strategy, Technical Debt Management",
+      "Team Enablement: Mentoring, Technical Guidance, Developer Productivity, Engineering Best Practices",
+      "Delivery: Cross-Functional Collaboration, Agile/Scrum, Risk Identification & Mitigation, Production Ownership",
+      "Scalability: System Modernization, Scalability Planning, Performance & Reliability Engineering",
+    ],
+  },
+
+  {
+    name: "UI/UX & Product Design",
+    para: "Figma, Adobe XD, Prototyping & Design Collaboration",
+    logo: ui,
+    details: [
+      "Design Tools: Figma, Adobe XD, Sketch, InVision, Photoshop, Illustrator",
+      "Prototyping: Marvel, Axure, Balsamiq",
+      "Product Design: UI/UX Collaboration, Design System Integration, Responsive Design",
+      "User Experience: Usability Testing, Accessibility, Internationalization",
+    ],
+  },
     ],
     icon: MdArrowForward,
   },
 
   // Single source of truth for all projects
   projects: [
+    {
+      id: 0,
+      title: "Mydoh",
+      category: "React Native Mobile App",
+      image: project0,
+      technologies: ["React Native", "TypeScript", "Redux", "Expo"],
+      description: "Mydoh is a comprehensive digital money-management platform designed to empower users with financial literacy and control. It offers a suite of features including budgeting tools, savings goals, spending insights, and educational resources to help users make informed financial decisions. With a user-friendly interface and secure data handling, Mydoh aims to simplify personal finance management for individuals and families.",
+      features: [
+        "WIP"
+      ],
+      appStoreLink: "https://apps.apple.com/ca/app/mydoh-youth-money-app-card/id1489334252",
+      playStoreLink: "https://play.google.com/store/apps/details?id=com.rbc.ventures.mydoh&hl=en_CA",
+      techDetails: [
+        "WIP"
+      ]
+    },
     {
       id: 1,
       title: "Skip-Restaurant Partners",

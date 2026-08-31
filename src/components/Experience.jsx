@@ -32,6 +32,8 @@ Modal.setAppElement("#root");
 
 // Map company names to translation detail keys
 const companyToDetailKey = {
+    "RBCx": "rbcX",
+    "Project X/Global Faces Direct": "projectX",
     "SkipTheDishes": "skipTheDishes",
     "Dropify Technologies": "dropifyTechnologies",
     "Sunflower Labs": "sunflowerLabs",
@@ -83,11 +85,25 @@ const Experience = () => {
 
     // Enhanced experience data with details and automatic duration calculation
     const experienceData = [
+         {
+            company: "RBCx",
+            position: "Lead Full Stack Engineer",
+            startDate: "2026-05-18",
+            endDate: "Present",
+            location: "Canada"
+        },
+         {
+            company: "Project X/Global Faces Direct",
+            position: "Lead Mobile Architect",
+            startDate: "2025-11-01",
+            endDate: "2026-01-31",
+            location: "Canada"
+        },
         {
             company: "SkipTheDishes",
             position: "Senior React Native Developer",
             startDate: "2024-04-01",
-            endDate: "Present",
+            endDate: "2026-05-15",
             location: "Canada"
         },
         {

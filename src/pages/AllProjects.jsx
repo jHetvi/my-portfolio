@@ -33,6 +33,11 @@ Modal.setAppElement('#root');
 
 // Project translation keys mapping
 const projectTranslationKeys = {
+    "Mydoh": {
+        title: "projects.mydoh",
+        description: "projects.mydohDesc",
+        category: "projects.reactNativeMobileApp"
+    },
     "Skip-Restaurant Partners": {
         title: "projects.skipRestaurantPartners",
         description: "projects.skipRestaurantPartnersDesc",
